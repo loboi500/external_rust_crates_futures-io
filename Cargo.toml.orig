@@ -1,28 +1,3 @@
-[package]
-name = "futures-io"
-edition = "2018"
-version = "0.3.13"
-authors = ["Alex Crichton <alex@alexcrichton.com>"]
-license = "MIT OR Apache-2.0"
-repository = "https://github.com/rust-lang/futures-rs"
-homepage = "https://rust-lang.github.io/futures-rs"
-documentation = "https://docs.rs/futures-io/0.3"
-description = """
-The `AsyncRead`, `AsyncWrite`, `AsyncSeek`, and `AsyncBufRead` traits for the futures-rs library.
-"""
-
-[features]
-default = ["std"]
-std = []
-
-# Unstable features
-# These features are outside of the normal semver guarantees and require the
-# `unstable` feature as an explicit opt-in to unstable API.
-unstable = []
-read-initializer = []
-
-[dependencies]
-
-[package.metadata.docs.rs]
-all-features = true
-rustdoc-args = ["--cfg", "docsrs"]
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a470b896013690673c13563caef9cc0670f804ee293fde53a8179983615b9b9
+size 756
